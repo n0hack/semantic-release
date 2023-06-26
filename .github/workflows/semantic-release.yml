@@ -6,4 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "테스트 러너"
+      - name: 노드 설치
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install -g bats
       - run: bats -v
