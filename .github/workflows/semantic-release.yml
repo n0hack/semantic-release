@@ -1,38 +1,28 @@
-name: Release
+name: Release New Version
 on:
   push:
     branches:
       - main
-
-permissions:
-  contents: read # for checkout
-
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     permissions:
-      contents: write # to be able to publish a GitHub release
-      issues: write # to be able to comment on released issues
-      pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 'lts/*'
       - name: Install dependencies
-        run: npm install
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
-      - name: Release
+        run: rm -rf node_modules && yarn install --frozen-lockfile
+      - name: Build application
+        run: yarn build
+      - name: Run semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
-
-      # 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
