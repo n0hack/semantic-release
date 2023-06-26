@@ -1,11 +1,11 @@
-name: Release
+name: Semantic Release
 on:
   push:
     branches:
       - main
 
-permissions:
-  contents: read # for checkout
+# permissions:
+#   contents: read # for checkout
 
 jobs:
   release:
