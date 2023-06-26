@@ -1,35 +1,29 @@
+/**
+ * Semantic Release (https://github.com/semantic-release/semantic-release)
+ */
 const config = {
   branches: ['main'],
   plugins: [
-    '@semantic-release/commit-analyzer', // already part of semantic-release
-    '@semantic-release/release-notes-generator', // already part of semantic-release
-    [
-      'semantic-release-gitmoji',
-      {
-        releaseRules: {
-          major: [':boom:'],
-          minor: [':sparkles:'],
-          patch: [':bug:', ':ambulance:', ':lock:'],
-        },
-      },
-    ],
     [
       '@semantic-release/github',
-      // https://github.com/semantic-release/semantic-release/issues/2204#issuecomment-1486299917
       {
         successComment: false,
         failTitle: false,
       },
-    ], // already part of semantic-release
-    // to change version on package.json
-    ['@semantic-release/npm', { npmPublish: false }], // already part of semantic-release
+    ],
+    '@semantic-release/commit-analyzer',
+    '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
+    [
+      '@semantic-release/npm',
+      {
+        npmPublish: false,
+      },
+    ],
     [
       '@semantic-release/git',
       {
-        message:
-          // eslint-disable-next-line no-template-curly-in-string
-          'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        message: '📦️ chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
