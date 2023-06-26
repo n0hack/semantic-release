@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/n0hack/semantic-release/compare/v3.1.1...v3.1.2) (2023-06-26)
+
+
+### Performance Improvements
+
+* perf ([05e86f0](https://github.com/n0hack/semantic-release/commit/05e86f006b4d9111e36e685da77838442921e7b8))
+
 ## [3.1.1](https://github.com/n0hack/semantic-release/compare/v3.1.0...v3.1.1) (2023-06-26)
 
 
