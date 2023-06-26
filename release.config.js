@@ -1,5 +1,7 @@
 /**
- * Semantic Release (https://github.com/semantic-release/semantic-release)
+ * Semantic Release
+ * - Commit 타입에 따라 릴리즈 노트를 작성해 주는 패키지입니다.
+ * - https://github.com/semantic-release/semantic-release
  */
 const config = {
   branches: ['main'],
