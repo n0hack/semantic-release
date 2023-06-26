@@ -1,55 +1,37 @@
-console.info('>>> local config in repo: ', __dirname);
-
 module.exports = {
   types: [
-    { value: 'feat', name: 'feat:     A new feature' },
-    { value: 'fix', name: 'fix:      A bug fix' },
-    { value: 'docs', name: 'docs:     Documentation only changes' },
-    {
-      value: 'style',
-      name: 'style:    Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)',
-    },
-    {
-      value: 'refactor',
-      name: 'refactor: A code change that neither fixes a bug nor adds a feature',
-    },
-    {
-      value: 'perf',
-      name: 'perf:     A code change that improves performance',
-    },
-    { value: 'test', name: 'test:     Adding missing tests' },
-    {
-      value: 'chore',
-      name: 'chore:    Changes to the build process or auxiliary tools\n            and libraries such as documentation generation',
-    },
-    { value: 'revert', name: 'revert:   Revert to a commit' },
-    { value: 'WIP', name: 'WIP:      Work in progress' },
+    { value: 'feat', name: 'feat: 새로운 기능을 추가합니다.' },
+    { value: 'fix', name: 'fix: 잘못된 동작이나 버그를 수정합니다.' },
+    { value: 'perf', name: 'perf: 성능을 개선합니다.' },
+    { value: 'refactor', name: 'refactor: 코드를 리팩토링합니다.' },
+    { value: 'revert', name: 'revert: 이전의 코드로 되돌립니다.' },
+    { value: 'style', name: 'style: 포맷팅이나 컨벤션에 따른 수정 사항을 반영합니다.' },
+    { value: 'test', name: 'test: 테스트 코드를 추가하거나 리팩토링합니다.' },
+    { value: 'build', name: 'build: 빌드 코드를 추가하거나 수정합니다.' },
+    { value: 'ci', name: 'ci: CI를 업데이트합니다.' },
+    { value: 'docs', name: 'docs: 문서를 작성하거나 내용을 일부 변경합니다.' },
+    { value: 'chore', name: 'chore: 사소한 변경이나, 패키지매니저를 관리합니다.' },
   ],
-
-  scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
-
-  allowTicketNumber: false,
-  isTicketNumberRequired: false,
-  ticketNumberPrefix: 'TICKET-',
-  ticketNumberRegExp: '\\d{1,5}',
-
-  // it needs to match the value for field type. Eg.: 'fix'
-  /*
-  scopeOverrides: {
-    fix: [
-
-      {name: 'merge'},
-      {name: 'style'},
-      {name: 'e2eTest'},
-      {name: 'unitTest'}
-    ]
-  },
-  */
-  // override the messages, defaults are as follows
+  scopes: [
+    'component',
+    'css-style',
+    'custom-hook',
+    'store',
+    'util',
+    'api',
+    'assets',
+    'package',
+    'lint',
+    'formatting',
+    'config',
+    'workflow',
+    'README',
+  ],
+  allowCustomScopes: true,
+  allowBreakingChanges: ['feat', 'fix'],
   messages: {
     type: "Select the type of change that you're committing:",
     scope: '\nDenote the SCOPE of this change (optional):',
-    // used if allowCustomScopes is true
     customScope: 'Denote the SCOPE of this change:',
     subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',
     body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
@@ -57,15 +39,6 @@ module.exports = {
     footer: 'List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n',
     confirmCommit: 'Are you sure you want to proceed with the commit above?',
   },
-
-  allowCustomScopes: true,
-  allowBreakingChanges: ['feat', 'fix'],
-  // skip any questions you want
   skipQuestions: ['body'],
-
-  // limit subject length
   subjectLimit: 100,
-  // breaklineChar: '|', // It is supported for fields body and footer.
-  // footerPrefix : 'ISSUES CLOSED:'
-  // askForBreakingChangeFirst : true, // default is false
 };
