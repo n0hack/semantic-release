@@ -1,0 +1,8 @@
+name: 테스트
+run-name: 테스트
+on: [push]
+jobs:
+  testtest:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "테스트 러너"
