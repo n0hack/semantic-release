@@ -20,8 +20,8 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: rm -rf node_modules && yarn install --frozen-lockfile
-      - name: Build application
-        run: yarn build
+      # - name: Build application
+      #   run: yarn build
       - name: Run semantic-release
         run: npx semantic-release
         env:
