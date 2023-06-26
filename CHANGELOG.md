@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/n0hack/semantic-release/compare/v1.3.0...v1.4.0) (2023-06-26)
+
+
+### Features
+
+* 브챈 BREAKING CHANGE ([f0e8ec3](https://github.com/n0hack/semantic-release/commit/f0e8ec30bb122244ea08438f8ef75b72813fcb1e))
+
 # [1.3.0](https://github.com/n0hack/semantic-release/compare/v1.2.0...v1.3.0) (2023-06-26)
 
 
