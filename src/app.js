@@ -1,3 +1,1 @@
-ㅇㅇ;
-ㅇ;
-zz;
+console.log('Hello world!');
