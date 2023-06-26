@@ -1,3 +1,15 @@
+# [3.3.0](https://github.com/n0hack/semantic-release/compare/v3.2.0...v3.3.0) (2023-06-26)
+
+
+### Bug Fixes
+
+* **LiL:** laLa ([0116e2c](https://github.com/n0hack/semantic-release/commit/0116e2c6cac8ae231bb2a4af7eeb7e1bf4f65344))
+
+
+### Features
+
+* **Lint:** Commitzen ([e2a5be0](https://github.com/n0hack/semantic-release/commit/e2a5be0643bc4c70fb60b9b8163072bdde0b4cf5))
+
 # [3.2.0](https://github.com/n0hack/semantic-release/compare/v3.1.2...v3.2.0) (2023-06-26)
 
 
