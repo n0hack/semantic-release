@@ -23,7 +23,7 @@ const config = {
     [
       '@semantic-release/git',
       {
-        message: '📦️ chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        message: 'chore(release): v${nextRelease.version}\n\n${nextRelease.notes}',
       },
     ],
   ],
