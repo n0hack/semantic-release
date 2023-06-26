@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/n0hack/semantic-release/compare/v3.1.2...v3.2.0) (2023-06-26)
+
+
+### Features
+
+* **scope:** 이건 ? ([b84508a](https://github.com/n0hack/semantic-release/commit/b84508ad2f5d48f2daa88a97d6f9caf31888f0dd))
+
 ## [3.1.2](https://github.com/n0hack/semantic-release/compare/v3.1.1...v3.1.2) (2023-06-26)
 
 
