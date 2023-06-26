@@ -4,6 +4,16 @@ const config = {
     '@semantic-release/commit-analyzer', // already part of semantic-release
     '@semantic-release/release-notes-generator', // already part of semantic-release
     [
+      'semantic-release-gitmoji',
+      {
+        releaseRules: {
+          major: [':boom:'],
+          minor: [':sparkles:'],
+          patch: [':bug:', ':ambulance:', ':lock:'],
+        },
+      },
+    ],
+    [
       '@semantic-release/github',
       // https://github.com/semantic-release/semantic-release/issues/2204#issuecomment-1486299917
       {
