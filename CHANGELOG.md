@@ -1,3 +1,14 @@
+# [3.0.0](https://github.com/n0hack/semantic-release/compare/v2.0.0...v3.0.0) (2023-06-26)
+
+
+
+
+
+# [v3.0.0](https://github.com/n0hack/semantic-release/compare/v2.0.0...v3.0.0) (2023-06-26)
+
+## 💥 Breaking Changes
+- [`1d54338`](https://github.com/n0hack/semantic-release/commit/1d54338)  feat: zzz
+
 # [2.0.0](https://github.com/n0hack/semantic-release/compare/v1.4.0...v2.0.0) (2023-06-26)
 
 
