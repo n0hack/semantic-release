@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/n0hack/semantic-release/compare/v4.0.0...v4.0.1) (2023-06-26)
+
+
+### Bug Fixes
+
+* 코드 수정 ([44acdcc](https://github.com/n0hack/semantic-release/commit/44acdcc38b688620c49441e83f695c9e7a517f6b))
+
 # [4.0.0](https://github.com/n0hack/semantic-release/compare/v3.4.0...v4.0.0) (2023-06-26)
 
 
