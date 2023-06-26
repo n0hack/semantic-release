@@ -8,6 +8,11 @@
   "scripts": {
     "commit": "./node_modules/cz-customizable/standalone.js"
   },
+  "config": {
+    "cz-customizable": {
+      "config": "cz-config.js"
+    }
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
