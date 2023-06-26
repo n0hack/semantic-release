@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/n0hack/semantic-release/compare/v3.1.0...v3.1.1) (2023-06-26)
+
+
+### Bug Fixes
+
+* zz ([0e9b4e9](https://github.com/n0hack/semantic-release/commit/0e9b4e9fcd674dd8339cbab63ace669dba1b7e21))
+
 # [3.1.0](https://github.com/n0hack/semantic-release/compare/v3.0.0...v3.1.0) (2023-06-26)
 
 
