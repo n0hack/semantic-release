@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/n0hack/semantic-release/compare/v1.4.0...v2.0.0) (2023-06-26)
+
+
+### Bug Fixes
+
+* 버그 수정 ([4baeb73](https://github.com/n0hack/semantic-release/commit/4baeb73e4e7daeba14b80cfa32ceaa46dcd0b534))
+
+
+### BREAKING CHANGES
+
+* 버전 올리장
+
 # [1.4.0](https://github.com/n0hack/semantic-release/compare/v1.3.0...v1.4.0) (2023-06-26)
 
 
