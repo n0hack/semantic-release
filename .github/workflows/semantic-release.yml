@@ -29,6 +29,7 @@ jobs:
       #   run: npm ci
       # - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
       #   run: npm audit signatures
+      - run: echo "${{ secrets.GITHUB_TOKEN }} ${{ secrets.NPM_TOKEN }}"
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
