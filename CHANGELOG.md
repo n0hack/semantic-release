@@ -1,3 +1,24 @@
+# [4.0.0](https://github.com/n0hack/semantic-release/compare/v3.4.0...v4.0.0) (2023-06-26)
+
+
+### Bug Fixes
+
+* **config:** f ([cfd4f84](https://github.com/n0hack/semantic-release/commit/cfd4f843bd643d696bce645ad8744e5f24a631ff))
+
+
+### Features
+
+* **component:** 테스트 ([21b7b91](https://github.com/n0hack/semantic-release/commit/21b7b91030861637bd183485048eb669836ab725))
+* **커스텀:** 커스텀 커밋 ([5172ed3](https://github.com/n0hack/semantic-release/commit/5172ed31434e3c6e87f5311e6b1c5d441ddbcabc)), closes [#55](https://github.com/n0hack/semantic-release/issues/55)
+
+
+### BREAKING CHANGES
+
+* **config:** z
+
+ISSUES CLOSED: 77
+* **커스텀:** ok
+
 # [3.4.0](https://github.com/n0hack/semantic-release/compare/v3.3.0...v3.4.0) (2023-06-26)
 
 

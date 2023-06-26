@@ -1,6 +1,6 @@
 {
   "name": "semantic-release",
-  "version": "3.4.0",
+  "version": "4.0.0",
   "main": "index.js",
   "repository": "https://github.com/n0hack/semantic-release.git",
   "author": "Lucid <nohack-@naver.com>",
