@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/n0hack/semantic-release.git",
   "author": "Lucid <nohack-@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^21.0.5"
+  }
 }
