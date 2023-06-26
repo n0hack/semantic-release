@@ -5,9 +5,13 @@
   "repository": "https://github.com/n0hack/semantic-release.git",
   "author": "Lucid <nohack-@naver.com>",
   "license": "MIT",
+  "scripts": {
+    "commit": "./node_modules/cz-customizable/standalone.js"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "cz-customizable": "^7.0.0",
     "semantic-release": "^21.0.5"
   }
 }
