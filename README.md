@@ -8,28 +8,6 @@
 [![Stargazer][Stars Shield]][Stars URL]
 [![MIT License][License Shield]][License URL]
 
-<!-- LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/n0hack/semantic-release">
-    <img src="./images/logo.png" alt="로고" width="80" height="80" />
-  </a>
-  <h3 align="center">📦 프로젝트 Release 자동화하기</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
 # semantic-release
 
 semantic-release는 버전 관리를 자동화할 수 있도록 도움을 주는 패키지입니다. 이 패키지를 사용하면 커밋 타입이나 메시지 내용에 따라 버전을 증가시킬 수도 있고, Release 노트 작성을 자동화할 수도 있습니다. 저는 회사 프로젝트에 적용해 봤는데 🐶 만족 중입니다.
