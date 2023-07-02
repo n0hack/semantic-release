@@ -1,4 +1,34 @@
+<!-- BACK TO TOP LINK -->
+
 <a name="readme-top"></a>
+
+<!-- PROJECT SHIELDS -->
+
+[![Forks][Forks Shield]][Forks URL]
+[![Stargazer][Stars Shield]][Stars URL]
+[![MIT License][License Shield]][License URL]
+
+<!-- LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/n0hack/semantic-release">
+    <img src="./images/logo.png" alt="로고" width="80" height="80" />
+  </a>
+  <h3 align="center">📦 프로젝트 Release 자동화하기</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
 
 # semantic-release
 
@@ -187,19 +217,15 @@ module.exports = {
 
 ![Jun-26-2023 21-44-20](https://github.com/n0hack/semantic-release/assets/42988225/6676aac1-9eb7-4645-80fb-2ca0dd508381)
 
-[![forks-shield]][forks-url]
-[![stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-
 <p align="right">
   <a href="#readme-top">back to top</a>
 </p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[forks-shield]: https://img.shields.io/github/forks/n0hack/semantic-release?style=for-the-badge
-[forks-url]: https://github.com/n0hack/semantic-release/network/members
-[stars-shield]: https://img.shields.io/github/stars/n0hack/semantic-release?style=for-the-badge
-[stars-url]: https://github.com/n0hack/semantic-release/stargazers
-[license-shield]: https://img.shields.io/github/license/n0hack/semantic-release?style=for-the-badge
-[license-url]: https://github.com/n0hack/semantic-release/blob/main/LICENSE
+[Forks Shield]: https://img.shields.io/github/forks/n0hack/semantic-release?style=for-the-badge
+[Forks URL]: https://github.com/n0hack/semantic-release/network/members
+[Stars Shield]: https://img.shields.io/github/stars/n0hack/semantic-release?style=for-the-badge
+[Stars URL]: https://github.com/n0hack/semantic-release/stargazers
+[License Shield]: https://img.shields.io/github/license/n0hack/semantic-release?style=for-the-badge
+[License URL]: https://github.com/n0hack/semantic-release/blob/main/LICENSE
