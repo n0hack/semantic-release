@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # semantic-release
 
 semantic-release는 버전 관리를 자동화할 수 있도록 도움을 주는 패키지입니다. 이 패키지를 사용하면 커밋 타입이나 메시지 내용에 따라 버전을 증가시킬 수도 있고, Release 노트 작성을 자동화할 수도 있습니다. 저는 회사 프로젝트에 적용해 봤는데 🐶 만족 중입니다.
@@ -184,3 +186,20 @@ module.exports = {
 변경사항을 Stage에 추가한 후, `yarn commit` 명령으로 실행하면 됩니다.
 
 ![Jun-26-2023 21-44-20](https://github.com/n0hack/semantic-release/assets/42988225/6676aac1-9eb7-4645-80fb-2ca0dd508381)
+
+[![forks-shield]][forks-url]
+[![stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
+
+<p align="right">
+  <a href="#readme-top">back to top</a>
+</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[forks-shield]: https://img.shields.io/github/forks/n0hack/semantic-release?style=for-the-badge
+[forks-url]: https://github.com/n0hack/semantic-release/network/members
+[stars-shield]: https://img.shields.io/github/stars/n0hack/semantic-release?style=for-the-badge
+[stars-url]: https://github.com/n0hack/semantic-release/stargazers
+[license-shield]: https://img.shields.io/github/license/n0hack/semantic-release?style=for-the-badge
+[license-url]: https://github.com/n0hack/semantic-release/blob/main/LICENSE
